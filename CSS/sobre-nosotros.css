@@ -1,0 +1,141 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Encabezado */
+.encabezado {
+    background-color: #AFE3FF;
+    padding: 10px;
+}
+
+.barra-navegacion {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.boton-regresar {
+    color: #000;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.boton-regresar:hover {
+    background-color: #004494;
+    color: #fff;
+}
+
+/* Contenido principal */
+.contenido-principal {
+    padding: 20px;
+}
+
+.introduccion, .historia, .vision, .mision {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contenedor-introduccion, .contenedor-historia, .contenedor-vision, .contenedor-mision {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.contenedor-introduccion img, 
+.contenedor-historia img, 
+.contenedor-vision img, 
+.contenedor-mision img {
+    flex: 1 1 40%;
+    width: 45% !important;
+}
+
+.contenedor-introduccion p, 
+.contenedor-historia p, 
+.contenedor-vision p, 
+.contenedor-mision p {
+    flex: 1 1 50%;
+}
+
+/* Sección: Equipo */
+.equipo {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.equipo .texto {
+    margin-bottom: 100px;
+}
+
+.logotipo {
+    float: right;
+}
+
+.logotipo img {
+    max-width: 240px;
+    height: auto;
+}
+
+.tarjetas-equipo {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.tarjeta {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tarjeta .foto-equipo {
+    background-color: #eaeaea;
+    height: 150px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.tarjeta p {
+    margin: 5px 0;
+}
+
+/* Pie de página */
+.pie-de-pagina {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 0.9em;
+    margin-top: 30px;
+}

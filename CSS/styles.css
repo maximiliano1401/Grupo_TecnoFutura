@@ -1,0 +1,161 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Encabezado */
+.encabezado {
+    background-color: #AFE3FF;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.encabezado .logo h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.encabezado .logo p {
+    font-size: 1.2em;
+    margin: 5px 0 0;
+}
+
+.navegacion {
+    height: 40px;
+    padding: 20px 0;
+}
+
+.navegacion ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navegacion ul li {
+    display: inline;
+}
+
+.navegacion ul li a {
+    text-decoration: none;
+    color: #000;
+    /* font-weight: bold; */
+}
+
+.navegacion ul li a:hover {
+    color: #0056b3;
+}
+
+/* Contenido principal */
+.contenido-principal {
+    padding: 20px;
+}
+
+.introduccion {
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.introduccion h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.introduccion p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.logotipo {
+    float: left;
+    margin-right: 20px;
+}
+
+.logotipo img {
+    max-width: 240px;
+    height: auto;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+}
+
+.video img {
+    max-width: 75%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.noticias {
+    margin-top: 30px;
+}
+
+.noticias h2 {
+    text-align: center;
+    font-size: 1.6em;
+    margin-bottom: 20px;
+}
+
+.noticias-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.noticia {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.noticia h3 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+.noticia p {
+    font-size: 1em;
+    margin: 0;
+}
+
+.noticia img {
+    width: 100px;
+    float: left;
+    margin-top: 50px;
+    margin-right: 10px;
+}
+
+/* Mapa */
+.mapa {
+    margin-top: 50px;
+    width: 100%;
+}
+
+/* Pie de página */
+.pie-de-pagina {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 15px 10px;
+    margin-top: 30px;
+}
+
+.pie-de-pagina p {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
