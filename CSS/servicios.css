@@ -1,0 +1,128 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Encabezado */
+.encabezado {
+    background-color: #AFE3FF;
+    padding: 10px;
+}
+
+.barra-navegacion {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.boton-regresar {
+    color: #000;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.boton-regresar:hover {
+    background-color: #004494;
+    color: #fff;
+}
+
+.hero {
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin: 10px 0;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+/* Sección: Llamado a la acción */
+.cta {
+    background-color: #155FC699;
+    text-align: center;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.btn-cta {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-cta:hover {
+    background-color: #00316E;
+}
+
+/* Sección: Proyectos desarrollados */
+.proyectos {
+    padding: 20px;
+    text-align: center;
+}
+
+.contenedor-proyectos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.proyecto {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.proyecto img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+/* Sección: Opiniones */
+.opiniones {
+    padding: 20px;
+    text-align: center;
+}
+
+.contenedor-opiniones {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.opinion {
+    text-align: center;
+    width: 250px;
+}
+
+.opinion img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Pie de página */
+.pie-pagina {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 0.9em;
+}
