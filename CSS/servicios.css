@@ -7,6 +7,11 @@ body {
     color: #333;
 }
 
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
 /* Encabezado */
 .encabezado {
     background-color: #AFE3FF;
@@ -190,9 +195,14 @@ body {
 
 
 /* Pie de página */
-.pie-pagina {
+.pie-de-pagina {
     background-color: #f1f1f1;
     text-align: center;
     padding: 15px 10px;
+    margin-top: 30px;
+}
+
+.pie-de-pagina p {
+    margin: 5px 0;
     font-size: 0.9em;
 }
