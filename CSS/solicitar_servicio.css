@@ -1,0 +1,87 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Encabezado */
+.encabezado {
+    background-color: #AFE3FF;
+    padding: 10px;
+}
+
+.barra-navegacion {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.boton-regresar {
+    color: #000;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.boton-regresar:hover {
+    background-color: #004494;
+    color: #fff;
+}
+
+/* Hero */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.texto-hero h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.imagen-hero img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Plan funcional e integral */
+.plan-funcional, .plan-integral {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.caracteristicas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.caracteristica {
+    text-align: center;
+    width: 200px;
+}
+
+.caracteristica img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Pie de página */
+.pie-pagina {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 0.9em;
+}

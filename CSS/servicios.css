@@ -60,6 +60,7 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .btn-cta:hover {
@@ -94,30 +95,99 @@ body {
     border-radius: 5px;
 }
 
+.proyecto a {
+    color: #000;
+    text-decoration: none;
+}
+
 /* Sección: Opiniones */
 .opiniones {
-    padding: 20px;
-    text-align: center;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    background-color: #fff;
+}
+
+.opiniones .imagen-opiniones {
+    flex: 1;
+    max-width: 50%;
+}
+
+.imagen-opiniones img {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .contenedor-opiniones {
+    flex: 1;
+    max-width: 50%;
+}
+
+.texto-opiniones {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.texto-opiniones h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.texto-opiniones p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.tarjetas-opiniones {
     display: flex;
-    justify-content: center;
-    gap: 20px;
     flex-wrap: wrap;
+    gap: 20px;
 }
 
 .opinion {
-    text-align: center;
-    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: #0000000D;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .opinion img {
-    width: 80px;
-    height: 80px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     margin-bottom: 10px;
+    border: 1px solid #ddd;
 }
+
+.opinion strong {
+    font-size: 1rem;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.opinion p {
+    font-size: 0.9rem;
+    color: #333;
+    line-height: 1.5;
+}
+
+.opinion .rating {
+    color: #FFD700;
+    margin-top: 10px;
+}
+
 
 /* Pie de página */
 .pie-pagina {
