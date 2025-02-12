@@ -1,0 +1,135 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #b2f0e7, #8eb1ff);
+}
+
+/* Encabezado */
+.encabezado {
+    background-color: #AFE3FF;
+    padding: 10px;
+}
+
+.barra-navegacion {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.boton-regresar {
+    color: #000;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.boton-regresar:hover {
+    background-color: #004494;
+    color: #fff;
+}
+
+/* Sección Contacto */
+.seccion-contacto {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    align-items: center;
+}
+
+.contenido-contacto {
+    width: 50%;
+}
+
+.titulo-contacto {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.iconos {
+    display: flex;
+    gap: 15px;
+    margin: 15px 0;
+}
+
+.iconos img {
+    width: 60px;
+    height: auto;
+}
+
+/* Formulario */
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.formulario label {
+    font-weight: bold;
+    text-align: center;
+}
+
+.formulario input, .formulario textarea {
+    width: 60%;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    resize: none;
+}
+
+.boton-aceptar {
+    background: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 30%;
+}
+
+/* Imagen de persona */
+.imagen-contacto img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+/* Sección Servicios */
+.seccion-servicios {
+    padding: 40px;
+    text-align: center;
+}
+
+.iconos-servicios {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.iconos-servicios div {
+    text-align: center;
+}
+
+.iconos-servicios img {
+    width: 80px;
+    height: auto;
+}
+
+/* Sección Empresas */
+.seccion-empresas {
+    text-align: center;
+    padding: 40px;
+}
+
+.logos-empresas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.logos-empresas img {
+    width: 120px;
+    height: auto;
+}
